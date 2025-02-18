@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia do Calouro IFTM - Ciência da Computação e ADS Campus Ituiutaba</title>
+    <meta name="description" content="Guia completo para calouros de Ciência da Computação e ADS do IFTM Campus Ituiutaba. Encontre grupos, dicas, e recursos essenciais para seu sucesso acadêmico.">
+    <meta name="keywords" content="IFTM, Ituiutaba, Ciência da Computação, ADS, calouro, guia, computação, tecnologia, graduação">
+    <meta name="author" content="Alunos IFTM">
+
+    <meta property="og:title" content="Guia do Calouro IFTM - Computação e ADS">
+    <meta property="og:description" content="Guia completo para calouros de Ciência da Computação e ADS do IFTM Campus Ituiutaba.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://iftm.rifeeh.com">
+    <link rel="canonical" href="https://iftm.rifeeh.com">
+    <meta name="robots" content="index, follow">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "IFTM Campus Ituiutaba",
+        "description": "Guia para calouros dos cursos de Ciência da Computação e Análise e Desenvolvimento de Sistemas",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Ituiutaba",
+            "addressRegion": "MG",
+            "addressCountry": "BR"
+        }
+    }
+    </script>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo" title="Gire-me!">IFTM</div>
+            <h1>Guia do Calouro IFTM</h1>
+            <p>Instituto Federal do Triângulo Mineiro - Campus Ituiutaba</p>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html">Início</a>
+            <a href="moradia.html">Moradia</a>
+            <a href="restaurante.html">Restaurantes</a>
+            <a href="transporte.html">Transporte</a>
+        </nav>
+    </header>
+    <main class="container">
+        <section>
+            <h2>Opções de Moradia</h2>
+            <div class="carousel">
+                <div class="card">
+                    <img src="images/casa1.jpg" alt="Casa Centro">
+                    <div class="rating">4.8</div>
+                    <div class="card-content">
+                        <h3>Casa Centro</h3>
+                        <div class="card-location">Rua Principal, Centro</div>
+                        <div class="card-price">R$ 1.200 <span>Por Mês</span></div>
+                        <div class="property-details">
+                            <div class="property-detail">03 Quartos</div>
+                            <div class="property-detail">02 Banheiros</div>
+                            <div class="property-detail">01 Garagem</div>
+                        </div>
+                        <button onclick="mostrarMapa(-18.9699, -49.4601)">Ver Localização</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/casa2.jpg" alt="Casa Bairro São José">
+                    <div class="rating">4.2</div>
+                    <div class="card-content">
+                        <h3>Casa Bairro São José</h3>
+                        <div class="card-location">Av. São José, 123</div>
+                        <div class="card-price">R$ 950 <span>Por Mês</span></div>
+                        <div class="property-details">
+                            <div class="property-detail">02 Quartos</div>
+                            <div class="property-detail">01 Banheiro</div>
+                            <div class="property-detail">01 Garagem</div>
+                        </div>
+                        <button onclick="mostrarMapa(-18.9756, -49.4623)">Ver Localização</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/casa3.jpg" alt="Casa Jardim Europa">
+                    <div class="rating">4.9</div>
+                    <div class="card-content">
+                        <h3>Casa Jardim Europa</h3>
+                        <div class="card-location">Rua das Flores, 456</div>
+                        <div class="card-price">R$ 1.500 <span>Por Mês</span></div>
+                        <div class="property-details">
+                            <div class="property-detail">04 Quartos</div>
+                            <div class="property-detail">03 Banheiros</div>
+                            <div class="property-detail">02 Garagens</div>
+                        </div>
+                        <button onclick="mostrarMapa(-18.9632, -49.4558)">Ver Localização</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="mapa-container">
+                <iframe id="mapa" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="footer-joke">Se este site quebrar, tente limpar o cache e reiniciar o navegador. Se não funcionar, culpe o estagiário! 😉</p>
+        </div>
+    </footer>
+
+    <div class="easter-egg">
+        Você encontrou um easter egg! 🎉
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

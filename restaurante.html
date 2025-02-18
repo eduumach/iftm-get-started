@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia do Calouro IFTM - Restaurantes Próximos ao Campus Ituiutaba</title>
+    <meta name="description" content="Guia de restaurantes próximos ao IFTM Campus Ituiutaba. Encontre opções de alimentação, preços e avaliações para sua refeição.">
+    <meta name="keywords" content="IFTM, Ituiutaba, restaurantes, alimentação, refeição, estudante, universitário">
+    <meta name="author" content="Alunos IFTM">
+
+    <meta property="og:title" content="Guia de Restaurantes - IFTM Campus Ituiutaba">
+    <meta property="og:description" content="Encontre os melhores restaurantes próximos ao IFTM Campus Ituiutaba.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://iftm.rifeeh.com">
+    <link rel="canonical" href="https://iftm.rifeeh.com">
+    <meta name="robots" content="index, follow">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "RestaurantGuide",
+        "name": "Guia de Restaurantes IFTM",
+        "description": "Guia completo de restaurantes próximos ao IFTM Campus Ituiutaba",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Ituiutaba",
+            "addressRegion": "MG",
+            "addressCountry": "BR"
+        }
+    }
+    </script>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo" title="Gire-me!">IFTM</div>
+            <h1>Guia do Calouro IFTM</h1>
+            <p>Instituto Federal do Triângulo Mineiro - Campus Ituiutaba</p>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html">Início</a>
+            <a href="moradia.html">Moradia</a>
+            <a href="restaurante.html">Restaurantes</a>
+            <a href="transporte.html">Transporte</a>
+        </nav>
+    </header>
+    <main class="container">
+        <section>
+            <h2>Opções de Restaurantes</h2>
+            <div class="carousel">
+                <div class="card">
+                    <img src="images/restaurante1.jpg" alt="Restaurante Bom Prato">
+                    <div class="rating">4.8</div>
+                    <div class="card-content">
+                        <h3>Restaurante Bom Prato</h3>
+                        <div class="card-location">Rua 20, 850 - Centro</div>
+                        <div class="card-price">R$ 26,90 <span>Self-Service por Kg</span></div>
+                        <div class="property-details">
+                            <div class="property-detail">Self-Service</div>
+                            <div class="property-detail">Sobremesa Grátis</div>
+                            <div class="property-detail">Ar Condicionado</div>
+                        </div>
+                        <button onclick="mostrarMapa(-19.0242, -49.4641)">Ver Localização</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/restaurante2.jpg" alt="Cantinho Mineiro">
+                    <div class="rating">4.6</div>
+                    <div class="card-content">
+                        <h3>Cantinho Mineiro</h3>
+                        <div class="card-location">Av. 31, 1150 - Centro</div>
+                        <div class="card-price">R$ 19,90 <span>Prato Feito</span></div>
+                        <div class="property-details">
+                            <div class="property-detail">PF</div>
+                            <div class="property-detail">Marmitex</div>
+                            <div class="property-detail">Delivery</div>
+                        </div>
+                        <button onclick="mostrarMapa(-19.0238, -49.4635)">Ver Localização</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/restaurante3.jpg" alt="Sabor da Terra">
+                    <div class="rating">4.9</div>
+                    <div class="card-content">
+                        <h3>Sabor da Terra</h3>
+                        <div class="card-location">Rua 26, 678 - Centro</div>
+                        <div class="card-price">R$ 29,90 <span>Self-Service por Kg</span></div>
+                        <div class="property-details">
+                            <div class="property-detail">Self-Service</div>
+                            <div class="property-detail">Feijoada (Sábado)</div>
+                            <div class="property-detail">Estacionamento</div>
+                        </div>
+                        <button onclick="mostrarMapa(-19.0248, -49.4633)">Ver Localização</button>
+                    </div>
+                </div>
+            </div>
+            <div id="mapa-container">
+                <iframe id="mapa" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="footer-joke">Aqui tem comida boa de verdade, não é truque de mágica! 🍽️✨</p>
+        </div>
+    </footer>
+
+    <div class="easter-egg">
+        Você encontrou um easter egg! 🍕
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
