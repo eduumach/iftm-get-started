@@ -796,6 +796,37 @@ header {
     top: 0;
 }
 
+.bolsas {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.bolsas h2 {
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.bolsas ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.bolsas li {
+    margin-bottom: 1rem;
+    padding-left: 30px;
+    position: relative;
+}
+
+.bolsas li::before {
+    content: "💰";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 .meme-section {
     text-align: center;
     margin: 2rem 0;
